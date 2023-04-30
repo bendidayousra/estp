@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.corps{
+    width: 100%;
+}
+.Title{
+    display: flex;
+    place-content: center;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.champs{
+    display: flex;
+    place-content: center;
+    margin: 0 auto;
+}
+.champ{
+   max-width: fit-content;
+   margin: 0 auto;
+    
+}
+.form-control{
+    border: none;
+}
+button{
+    padding: 8.5px !important;
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    background: blue;
+}
+.cc{
+    grid-auto-rows: auto;
+}
